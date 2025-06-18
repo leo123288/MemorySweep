@@ -1,0 +1,17 @@
+{
+  "memorysweep.gc.start": "[内存清扫]正在清理内存，当前JVM占用%dG内存",
+  "memorysweep.gc.end": "[内存清扫]内存已清理完成，当前JVM占用%dG内存",
+  "memorysweep.gc.failed": "[内存清扫]内存清理失败，因为%s",
+  "memorysweep.gc.failed.cause.not-gc": "不需要清理内存",
+  "memorysweep.gc.use_chat": "请在聊天中发送'memorysweep'，因为这是不利用Network最简单的检测手段。",
+  "text.memorysweep.title": "内存清扫",
+  "text.memorysweep.category.config": "内存清扫配置",
+  "text.memorysweep.memorysweep": "内存清扫",
+  "text.memorysweep.desc.memorysweep": "是否启用内存清扫",
+  "text.memorysweep.sweep_interval": "清扫间隔",
+  "text.memorysweep.desc.sweep_interval": "内存清理的时间间隔。单位：秒",
+  "text.memorysweep.min_memory_usage": "最小内存使用量",
+  "text.memorysweep.desc.min_memory_usage": "触发清理的最小内存使用百分比（按10秒平均值计算）值越低，清理越严格。",
+  "text.memorysweep.silent": "静默清理",
+  "text.memorysweep.desc.silent": "启用静默内存清理。不在UI中显示消息，但日志仍然会输出。"
+}
