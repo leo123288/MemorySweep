@@ -1,0 +1,24 @@
+{
+  "mappings": {
+    "com/tkisor/memorysweep/mixin/MinecraftMixin": {
+      "Lnet/minecraft/client/Minecraft;runTick(Z)V": "Lnet/minecraft/class_310;method_1523(Z)V",
+      "run": "Lnet/minecraft/class_310;method_1514()V"
+    },
+    "com/tkisor/memorysweep/mixin/MinecraftServerMixin": {
+      "Lnet/minecraft/server/MinecraftServer;startMetricsRecordingTick()V": "Lnet/minecraft/server/MinecraftServer;method_24487()V",
+      "runServer": "Lnet/minecraft/server/MinecraftServer;method_29741()V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "com/tkisor/memorysweep/mixin/MinecraftMixin": {
+        "Lnet/minecraft/client/Minecraft;runTick(Z)V": "Lnet/minecraft/class_310;method_1523(Z)V",
+        "run": "Lnet/minecraft/class_310;method_1514()V"
+      },
+      "com/tkisor/memorysweep/mixin/MinecraftServerMixin": {
+        "Lnet/minecraft/server/MinecraftServer;startMetricsRecordingTick()V": "Lnet/minecraft/server/MinecraftServer;method_24487()V",
+        "runServer": "Lnet/minecraft/server/MinecraftServer;method_29741()V"
+      }
+    }
+  }
+}
