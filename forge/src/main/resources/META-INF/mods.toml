@@ -1,0 +1,36 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+issueTrackerURL = "https://github.com/Tki-sor/MemorySweep/issues"
+license = "MIT"
+
+[[mods]]
+modId = "memorysweep"
+version = "${version}"
+displayName = "MemorySweep"
+authors = "Tki_sor"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/memorysweep"
+description = '''
+
+'''
+#logoFile = ""
+
+[[dependencies.memorysweep]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.memorysweep]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.memorysweep]]
+modId = "architectury"
+mandatory = true
+versionRange = "[9.2.14,)"
+ordering = "AFTER"
+side = "BOTH"

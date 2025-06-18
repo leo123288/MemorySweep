@@ -1,0 +1,17 @@
+{
+  "memorysweep.gc.start": "[Memory Sweep]Start memory cleanup, currently JVM occupying %dG memory.",
+  "memorysweep.gc.end": "[Memory Sweep]Memory cleanup completed, currently JVM occupying %dG memory.",
+  "memorysweep.gc.failed": "[Memory Sweep]Memory cleanup failed, because %s",
+  "memorysweep.gc.failed.cause.not-gc": "There is no need to clean up memory.",
+  "memorysweep.gc.use_chat": "Please chat 'memorysweep', because the server does not utilize the network, this is a very simple choice.",
+  "text.memorysweep.title": "Memory Sweep",
+  "text.memorysweep.category.config": "Memory Sweep Config",
+  "text.memorysweep.memorysweep": "Memory Sweep",
+  "text.memorysweep.desc.memorysweep": "Whether to enable MemorySweep.",
+  "text.memorysweep.sweep_interval": "Sweep Interval",
+  "text.memorysweep.desc.sweep_interval": "The interval time of memory cleaning. Unit: seconds.",
+  "text.memorysweep.min_memory_usage": "Min Memory Usage",
+  "text.memorysweep.desc.min_memory_usage": "The minimum memory usage percentage (calculated over a 10-second average) to trigger cleaning; lower values enforce stricter cleanup.",
+  "text.memorysweep.silent": "Silent",
+  "text.memorysweep.desc.silent": "Enable silent memory cleaning; no UI messages displayed, but logs remain."
+}
