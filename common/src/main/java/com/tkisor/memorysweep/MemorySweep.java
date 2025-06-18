@@ -26,6 +26,7 @@ public final class MemorySweep {
 
     public static LocalPlayer player = null;
 
+
     public static void init() {
         // Write common init code here.
         if (!Flags.initConfig) {
